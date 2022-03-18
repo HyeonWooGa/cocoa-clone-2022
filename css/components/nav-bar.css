@@ -20,26 +20,27 @@
 
 .nav__notification {
   background-color: tomato;
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-weight: 600;
+  font-weight: 400;
   position: absolute;
-  left: 15px;
-  bottom: 18px;
+  left: 12px;
+  bottom: 12px;
+  font-size: 12px;
 }
 
 .nav__notification__ellipsis {
   background-color: tomato;
-  width: 10px;
-  height: 10px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   display: flex;
   position: absolute;
-  left: 25px;
-  bottom: 25px;
+  left: 18px;
+  bottom: 18px;
 }

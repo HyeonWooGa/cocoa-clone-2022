@@ -1,6 +1,6 @@
 .user-component {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  width: 90%;
+  justify-content: space-between;
 }
 
 .user-component,
@@ -10,9 +10,13 @@
   margin: 5px 0px;
 }
 
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .user-component__avatar {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 35%;
   margin-right: 20px;
 }
@@ -29,8 +33,20 @@
 }
 
 .user-component__avatar--xl {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
+}
+
+.user-component__column__number {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.user-component__column__number span {
+  margin: 5px;
 }
 
 .user-component__avatar--sm {
@@ -39,6 +55,6 @@
 }
 
 .user-component__title--sm {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
 }
