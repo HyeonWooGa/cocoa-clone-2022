@@ -1,3 +1,8 @@
+.user-component {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 90%;
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -21,4 +26,19 @@
   margin-top: 8px;
   font-size: 13px;
   color: rgab(0, 0, 0, 0.3);
+}
+
+.user-component__avatar--xl {
+  height: 80px;
+  width: 80px;
+}
+
+.user-component__avatar--sm {
+  height: 50px;
+  width: 50px;
+}
+
+.user-component__title--sm {
+  font-weight: 400;
+  font-size: 15px;
 }
